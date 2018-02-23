@@ -1,0 +1,32 @@
+html,body { 
+    margin:0;
+    padding:0;
+    height:100%;
+}
+#map {
+    position: fixed;
+    width:75%;
+    height: 100%;
+}
+#features {
+    width: 25%;
+    margin-left: 75%;
+    font-family: sans-serif;
+    overflow-y: scroll;
+    background-color: #fafafa;
+}
+section {
+    padding:  25px 25px 200px 25px;
+    line-height: 25px;
+    border-bottom: 1px solid #ddd;
+    opacity: 0.25;
+    font-size: 13px;
+    min-height: 75%;
+}
+section.active {
+    opacity: 1;
+}
+section:last-child {
+    border-bottom: none;
+    margin-bottom: 600px;
+}
